@@ -1,0 +1,23 @@
+{
+  "name": "ai-projects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "search": "tsx src/search.ts",
+    "gpt": "tsx src/gpt.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.4.9",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "langchain": "^0.0.124",
+    "redis": "^4.6.7"
+  }
+}
